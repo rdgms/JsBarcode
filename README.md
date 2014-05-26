@@ -15,13 +15,12 @@ Use
 ####A Html5Canvas barcode generator is included to draw the barcodes.
 ````javascript
 JsBarcode ({
-	content:"AVDD",
+	content:"Content",
 	width:	2,
 	height:	100,
 	quite: 10,
-	format:	"CODE128"
+	format:	"CODE128" //CODE128, CODE39, EAN, ITF14, UPC
 }, function(err, png){
-	debugger;
 	res.writeHead(200, { 'Content-Type':'image/png' });
 	res.end(png, 'binary');
 });
