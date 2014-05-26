@@ -10,6 +10,10 @@ The plugin uses Html5Canvas to generate draw the barcodes
 *  CODE39
 *  ITF14
 
+Installation
+----
+`$ npm install js-barcode`
+
 Use
 ----
 ####A Html5Canvas barcode generator is included to draw the barcodes.
@@ -25,3 +29,7 @@ JsBarcode ({
 	res.end(png, 'binary');
 });
 ````
+
+# Installation
+
+    $ npm install restify
