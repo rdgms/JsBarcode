@@ -1,6 +1,6 @@
 var url = require('url');
 var http = require('http');
-var JsBarcode = require('../JsBarcode');
+var JsBarcode = require('../index');
 
 
 http.createServer(function(req, res) {
