@@ -29,7 +29,3 @@ JsBarcode ({
 	res.end(png, 'binary');
 });
 ````
-
-# Installation
-
-    $ npm install restify
