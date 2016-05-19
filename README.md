@@ -1,3 +1,9 @@
+#Deprecated!
+
+Please use [JsBarcode](https://github.com/lindell/JsBarcode), is now available on npm!
+
+----
+
 Introduction
 ----
 JsBarcode is a simple way to create different types of 1d barcodes.  
